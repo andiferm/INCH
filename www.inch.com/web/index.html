@@ -1,0 +1,49 @@
+<!--
+Author: Miguel Diaz
+
+-->
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<title>Inicio de sesion / Sistema de matriculas del INCH</title>
+		<meta charset="utf-8">
+		<link href="web/css2/style.css"  rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
+</head>
+<body>
+	
+				 <!-----start-main---->
+				<div class="login-form" METHOD = "POST">
+						<h1>Inicio de sesion</h1>
+						<h2>&nbsp;</h2>
+				<form action="web/login.php" method="post">
+					<li>
+						<input name="user" type="text" class="text" value="Nombre de usuario" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'User Name';}" ><a href="#" class=" icon user"></a>
+				  </li>
+					<li>
+						<input type="password" name="pas" value="Contraseña" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"><a href="#" class=" icon lock"></a>
+					</li>
+					
+				  <div class ="forgot">
+					
+					 <input type="submit"  onclick="myFunction()" value="Iniciar" > <a href="#" class=" icon arrow"></a>                                                                                                                                                                                                                                 </h4>
+					</div>
+				</form>
+			</div>
+			<!--//End-login-form-->
+				
+
+
+		  <!-----start-copyright---->
+   					<div class="copy-right">
+						<p>Creado por: <a href=#>Miguel Díaz</a></p>
+					</div>
+				<!-----//end-copyright---->
+		 		
+</body>
+</html>

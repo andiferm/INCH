@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+</head>
+<body>
+	
+    <div class="modal fade" id="frmingresar">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Ingresar registros de usuarios</h4>
+          </div>
+          <div class="modal-body">
+              <form action="inc/nuevo.php" method="POST" name="nuevousuario">
+                <input type="text" name="nombre" placeholder="Ingrese nombre" />
+                <input type="text" name="correo" placeholder="Ingrese el correo" />
+                <button type="submit">Guardar registro </button>
+              </form>            
+          </div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal">Cerrar ventana</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.js"></script> 	
+
+</body>
+</html>
