@@ -19,7 +19,7 @@
 	
 			
 			if  (($vnombre == "") || ($vapellidos == "") || ($vfecha== "") || ($vtutor== "") || ($vdireccion == "")) {
-					echo "<script languaje=\"javascript\">alert('Favor rellenar los datos')</script>";
+					echo "<script languaje=\"javascript\">alert('Favor rellenar los datos requeridos')</script>";
 			echo "<script>javascript:history.back()</script>";
 	}else{
 	
@@ -35,8 +35,9 @@
  		else {
 			echo "<script languaje=\"javascript\">alert('Sus datos han sido enviado a nuestros servidores sastifactoriamente')</script>";
 			echo "<script>javascript:history.back()</script>";
-			 Header("Location:matriculas.html?55285241788%%%8dd121fgsdfg54%54f&a&fad&fdadfagsdf8%0FDEWJKJ%DEWDADSYE28·/DW(ER822121=DDF52?85EDDF=5DFE?ERER)RESD=5525$%%(%%%)%%%%DSFASDF558825"); 
-					 exit;
+	        Header("Location:matriculas.html?55285241788%%%8dd121fgsdfg54%54f&a&fad&fdadfagsdf8%0FDEWJKJ%DEWDADSYE28·/DW(ER822121=DDF52?85EDDF=5DFE?ERER)RESD=5525$%%(%%%)%%%%DSFASDF558825"); 
+			exit;
+			
 		}
 	}
 			

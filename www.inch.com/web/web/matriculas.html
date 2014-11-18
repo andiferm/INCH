@@ -1,9 +1,4 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -91,24 +86,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     
                     <form action="matri.php" method="post">
 				
-						<label> Nombre del Estudiante:</label><input name="nombre" type="text" value="Nombres del estudiante" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre del estudiante';}" >
-                        <label> Apellidos del Estudiante:</label><input name="apellidos" type="text" value="Apellidos del estudiante" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Apellidos del estudiante';}" > <br></br>
-                        <label> Fecha de Nacimiento:</label><input name="fechanac" type="text" value="Fecha de Nacimiento" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Fecha de Nacimiento';}" >
-                        <label> Nombre del Padre:</label><input name="papa" type="text" value="Nombre del papa" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre del papa';}" >
-                        <label> Nombre de la Madre:</label><input name="mama" type="text" value="Nombre de la mama" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre del mama';}" ><br></br>
-                        <label> Nombre del tutor:</label><input name="tutor" type="text" value="Nombre del tutor" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Nombre del tutor';}" >
-                        <label> Direccion:</label><input name="direccion" type="text" value="Direccion del estudiante" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Direccion del estudiante';}" >
+						<label> Nombre del Estudiante:</label><input name="nombre" type="text" placeholder="Nombre del Estudiante"/>
+                        <label> Apellidos del Estudiante:</label><input name="apellidos" type="text" placeholder="Apellidos del Estudiante"/> 
+                        <br></br>
+                        <label> Fecha de Nacimiento:</label><input name="fechanac" type="text" placeholder="Fecha de Nacimiento"/>
+                        <label> Nombre del Padre:</label><input name="papa" type="text" placeholder="Nombre del pap&aacute"/>
+                        <label> Nombre de la Madre:</label><input name="mama" type="text" placeholder="Nombre de la mam&aacute" /><br></br>
+                        <label> Nombre del tutor:</label><input name="tutor" type="text" placeholder="Nombre del tutor" />
+                        <label> Direccion:</label><input name="direccion" type="text" placeholder="Direcci&oacuten del estudiante"/>
 				 
 					
 					
 					<br></br>
-					 <input type="submit"  onclick="" value="Registrar" >
+					 <button class="btn btn-default">Registrar</button>
 
                      
                      	<br></br>                                                                       
                      
                         <ul class="note-btns unstyled-list list-inline">
-						<li><a href="#">Visualizar estudiantes matriculados</a></li>
+						<li><a href="inc/presentarmatriculas.html">Visualizar estudiantes matriculados</a></li>
 					
 						<div class="clearfix"> </div>
 					</ul>         
